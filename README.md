@@ -27,7 +27,10 @@ https://www.kaggle.com/code/yuukiiwakura/5-class-classification-using-pytorch-de
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/casestudy  
 ### 認定バッジ
-https://www.credly.com/badges/a39e18db-7d5b-49a8-b266-4d47a473af6c/public_url
+
+<a href="[[URL]](https://www.credly.com/badges/a39e18db-7d5b-49a8-b266-4d47a473af6c/public_url)">
+  <img src="[画像のURL]" alt="[画像の説明]">
+</a>
 
 
 
