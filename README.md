@@ -4,24 +4,30 @@ https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost 
 
+
 ## 機械学習を用いた回帰
 https://portfoliohouseprice-fo9ulyssetjkjiappnpywxw.streamlit.app/  
 ### 分析ノート 
 https://www.kaggle.com/code/yuukiiwakura/regressoin-by-lightgbm  
+
 
 ## ニューラルネットワークを用いた画像分類
 https://portfoliodogscats-hbvehhzihycnxdplnrxzu4.streamlit.app/  
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/2-class-classification-using-pytorch-original-cnn  
 
+
 ## 転移学習を用いた画像分類
 https://flowerclassification-mudkpi47dcealenst7iynq.streamlit.app/  
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/5-class-classification-using-pytorch-densenet  
 
+
 ## GoogleDataAnalyticsProfessional認定ケーススタディ
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/casestudy  
+### 認定バッジ
+https://www.credly.com/badges/a39e18db-7d5b-49a8-b266-4d47a473af6c/public_url
 
 
 
