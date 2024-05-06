@@ -22,6 +22,14 @@ https://flowerclassification-mudkpi47dcealenst7iynq.streamlit.app/
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/5-class-classification-using-pytorch-densenet  
 
+## YOLOv8を用いた物体検出
+https://helmetv2-jipzd9znb5yip8xmza8wfu.streamlit.app/  
+下記のurlから動画検出も含めたアプリに飛べますが、環境によっては動画が再生されない可能性があります。  
+因みに、windowsのブラウザでは動画を再生できませんでした。一方で、iphone環境では動画を再生することができました。  
+アプリで動画を確認できない方は分析結果報告スライドのfig06を確認ください。  
+https://helmetv2-kppnytbjth5qe8udrcjohh.streamlit.app/  
+### 分析結果報告スライド
+https://docs.google.com/presentation/d/1tLZ4_f5EMZsqNUVD2tdCjxSMs35r3YLRnNA95BSTrb0/edit#slide=id.p
 
 ## GoogleDataAnalyticsProfessional認定ケーススタディ
 ### 分析ノート
