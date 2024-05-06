@@ -31,7 +31,14 @@ https://helmetv2-kppnytbjth5qe8udrcjohh.streamlit.app/
 ### 分析結果報告スライド
 https://docs.google.com/presentation/d/1tLZ4_f5EMZsqNUVD2tdCjxSMs35r3YLRnNA95BSTrb0/edit#slide=id.p
 
+## Bertモデルを用いた自然言語処理
+### 分析ノート
+https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification/edit
+
+
 ## GoogleDataAnalyticsProfessional認定ケーススタディ
+### 分析結果報告スライド
+https://docs.google.com/presentation/d/1yJ9RSdGBTQlT9GvQKLMHq5cAHBwVKtG39ImytjGriBU/edit#slide=id.p
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/casestudy  
 ### 認定バッジ
