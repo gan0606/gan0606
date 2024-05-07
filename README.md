@@ -34,7 +34,7 @@ tidyverse, gglot2
 
 ## 取り組んだ分析課題
 ### 機械学習を用いた分類
-結果をStreamlitでアプリ化し、ROC AUCスコアが0.81で、再現率と適合率が比較的高いCatboostモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。 
+ROC AUCスコアが0.81で、再現率と適合率が比較的高いCatboostモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。 そして、分析結果をStreamlitを用いてアプリ化しました。  
   
 <a href="https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/" target="_blank">機械学習を用いたタイタニック号乗客の生存確率分析</a>  
   
@@ -45,7 +45,7 @@ tidyverse, gglot2
 
 
 ### 機械学習を用いた回帰
-結果をStreamlitでアプリ化し、RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。   
+RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。そして、分析結果をStreamlitを用いてアプリ化しました。  
   
 <a href="https://portfoliohouseprice-fo9ulyssetjkjiappnpywxw.streamlit.app/" target="_blank">機械学習による米国住宅価格の予測</a>  
   
