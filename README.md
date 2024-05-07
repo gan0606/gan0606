@@ -1,9 +1,12 @@
 # Portfolio
-## 機械学習を用いた分類
-<a href="https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/" target="_blank">機械学習を用いたタイタニック号乗客の生存確率分析</a>
-### 分析ノート
-https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost 
 
+## 取り組んだ分析課題
+### 機械学習を用いた分類
+結果をStreamlitでアプリ化し、ROC AUCスコアが0.81で、再現率と適合率が比較的高いモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。 
+  
+<a href="https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/" target="_blank">機械学習を用いたタイタニック号乗客の生存確率分析</a>  
+  
+<a href="https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost" target="_blank">Kaggle分析ノートブック</a> 
 
 ## 機械学習を用いた回帰
 https://portfoliohouseprice-fo9ulyssetjkjiappnpywxw.streamlit.app/  
