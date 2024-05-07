@@ -1,6 +1,6 @@
 # Portfolio
 ## 機械学習を用いた分類
-https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/ 
+<a href="https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/" target="_blank">機械学習を用いたタイタニック号乗客の生存確率分析</a>
 ### 分析ノート
 https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost 
 
