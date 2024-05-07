@@ -5,7 +5,8 @@
 * Python  
 データ分析、ファイルやフォルダの操作、簡単なアプリ開発  
 【使用経験のあるフレームワークやライブラリ】  
-os, glob, shutil, re, pandas, matplotlib, seaborn, plotly
+os, glob, shutil, re, pandas, matplotlib, seaborn, plotly, scipy,  
+scikit-learn, Pytorch, prophet, YOLOv8, Transformers, Streamlit, shap
 
 * SQL  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
