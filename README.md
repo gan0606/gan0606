@@ -1,8 +1,19 @@
 # Portfolio
 
-## スキル
-*  
-*  
+## スキル・資格
+①言語  
+* Python  
+データ分析、ファイルやフォルダの操作、簡単なアプリ開発  
+【使用経験のあるフレームワークやライブラリ】  
+os, glob, shutil, re, pandas, matplotlib, seaborn, plotly
+
+* SQL  
+Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
+BigqueryからSQLを用いてデータの抽出し、GoogleColab上でPythonを用いて分析した経験有  
+* R  
+Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
+  
+
 *  
 
 
