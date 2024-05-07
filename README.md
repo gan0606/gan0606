@@ -11,11 +11,18 @@ scikit-learn, Pytorch, prophet, YOLOv8, Transformers, Streamlit, shap
 * SQL  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
 BigqueryからSQLを用いてデータの抽出し、GoogleColab上でPythonを用いて分析した経験有  
+  
 * R  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
+【使用経験のあるパッケージ】  
+tidyverse, gglot2  
+
+②開発ツール  
+* Git, GitHub  
+アプリ開発はGitの環境下で行い、ブランチを切って、アプリに機能を追加しています。  
   
 
-*  
+
 
 
 ## 取り組んだ分析課題
