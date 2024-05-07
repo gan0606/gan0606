@@ -25,6 +25,8 @@ tidyverse, gglot2
 アクセス権限の変更  
 ファイルのバッシュ化  
 シェルスクリプト（学習中）  
+  
+* AWS（学習中）
 
 ## 資格
 * SolidWorks認定試験（CSWA）(2019年11月取得)  
@@ -112,33 +114,9 @@ BERTをPeftでファインチューニングを行い、自然言語分類モデ
 
 
 
-### GoogleDataAnalyticsProfessional認定ケーススタディ
+### GoogleDataAnalyticsProfessional認定最終課題（ケーススタディ）
 <a href="https://docs.google.com/presentation/d/1yJ9RSdGBTQlT9GvQKLMHq5cAHBwVKtG39ImytjGriBU/edit#slide=id.p" target="_blank">分析結果報告スライド</a>  
 
 <a href="https://www.kaggle.com/code/yuukiiwakura/casestudy" target="_blank">Kaggle分析ノートブック</a>  
 
 <a href="https://www.kaggle.com/datasets/arashnic/fitbit" target="_blank">データの出典元</a>  
-  
-<a href="https://www.credly.com/badges/a39e18db-7d5b-49a8-b266-4d47a473af6c/public_url">
-  <img src="./badge.png" alt="認定バッジ">
-</a>
-
-
-
-
-
-
-<!--
-**gan0606/gan0606** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
