@@ -5,7 +5,7 @@
 * Python  
 データ分析、機械学習、深層学習、ファイルやフォルダの操作、簡単なアプリ開発  
 【使用経験のあるフレームワークやライブラリ】  
-os, glob, shutil, re, pandas, matplotlib, seaborn, plotly, scipy, scikit-learn, Pytorch, prophet, YOLOv8, Transformers, Streamlit, shap
+os, glob, shutil, re, pandas, numpy, matplotlib, seaborn, plotly, scipy, scikit-learn, Pytorch, prophet, YOLOv8, Transformers, Streamlit, shap
 
 * SQL  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
@@ -23,6 +23,7 @@ tidyverse, gglot2
 * Linux  
 基本コマンド  
 アクセス権限の変更  
+ファイルのバッシュ化  
 シェルスクリプト（学習中）  
 
 
