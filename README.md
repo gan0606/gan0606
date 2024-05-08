@@ -33,7 +33,7 @@ tidyverse, gglot2
 * SolidWorks認定試験（CSWA）(2019年11月取得)  
 * 日商簿記2級(2022年5月取得)  
 * GoogleDataAnalyticsProfessional認定(2024年4月取得)  
-<a href="https://www.credly.com/badges/a39e18db-7d5b-49a8-b266-4d47a473af6c/public_url">
+<a href="https://www.credly.com/earner/earned/badge/a39e18db-7d5b-49a8-b266-4d47a473af6c">
   <img src="./badge.png" alt="認定バッジ">
 </a>
    
