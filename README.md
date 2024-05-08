@@ -39,7 +39,7 @@ tidyverse, gglot2
    
 * GoogleCyberSecurityProfessional認定（2024年5月取得）
 <a href="https://www.credly.com/earner/earned/badge/8a26f25a-b826-4a1b-94b5-71bab22736f7">
-  <img src="./google2.png" alt="認定バッジ">
+  <img src="./budge2.png" alt="認定バッジ">
 </a>
 
 
