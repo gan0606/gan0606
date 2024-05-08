@@ -35,7 +35,8 @@ tidyverse, gglot2
 * GoogleDataAnalyticsProfessional認定(2024年4月取得)  
 <a href="https://www.credly.com/badges/a39e18db-7d5b-49a8-b266-4d47a473af6c/public_url">
   <img src="./badge.png" alt="認定バッジ">
-</a>  
+</a>
+   
 * GoogleCyberSecurityProfessional認定（取得予定）
 
 
