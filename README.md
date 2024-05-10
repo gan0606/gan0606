@@ -1,7 +1,7 @@
 # Portfolio
-最終更新日: 2024/5/8  
+最終更新日: 2024/5/10  
 
-## スキル
+# スキル
 ①言語  
 * Python  
 データ分析、機械学習、深層学習、ファイルやフォルダの操作、簡単なアプリ開発  
@@ -29,7 +29,7 @@ tidyverse, gglot2
   
 * AWS（学習中）
 
-## 資格
+# 資格
 * SolidWorks認定試験（CSWA）(2019年11月取得)  
 * 日商簿記2級(2022年5月取得)  
 * GoogleDataAnalyticsProfessional認定(2024年4月取得)  
@@ -44,7 +44,9 @@ tidyverse, gglot2
 
 
 
-## 取り組んだ分析課題
+# 取り組んだ分析課題
+
+## 構造化データの分析
 ### 機械学習を用いた分類
 ROC AUCスコアが0.81で、再現率と適合率が比較的高いCatboostモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。 そして、分析結果をStreamlitを用いてアプリ化しました。  
   
@@ -66,7 +68,7 @@ RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しま
 <a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques" target="_blank">データの出典元</a> 
 
 
-
+## 非構造化データの分析(画像分類)
 ### 深層学習を用いた画像分類
 PyTorchを使用してオリジナルの畳み込みニューラルネットワークを構築し、画像分類を行いました。モデルの精度は77.5%で、結果をStreamlitで可視化しました。  
   
@@ -88,7 +90,7 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 <a href="https://www.kaggle.com/datasets/alxmamaev/flowers-recognition" target="_blank">データの出典元</a> 
 
 
-
+## 非構造化データの分析(物体検出)
 ### YOLOv8を用いた物体検出
 ・YOLOv8を用いて画像と映像から物体検出を行うアプリを開発しました。  
 ・検出対象は3つで、2つの検出でmAP=約0.9という高い精度を実現しました。  
@@ -110,7 +112,8 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 
 
 
-### 自然言語処理
+## 非構造化データの分析(自然言語処理)
+### Transformersを用いたテキスト分類
 BERTをPeftでファインチューニングを行い、自然言語分類モデルを構築しました。モデルはF1スコア0.91を達成し、再現率と適合率のバランスが良い結果となりました。  
   
 <a href="https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification/edit" target="_blank">Kaggle分析ノートブック</a>  
