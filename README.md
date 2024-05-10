@@ -121,8 +121,8 @@ BERTをPeftでファインチューニングを行い、自然言語分類モデ
 <a href="https://www.kaggle.com/datasets/eswarchandt/amazon-music-reviews" target="_blank">データの出典元</a>  
 
 
-
-### GoogleDataAnalyticsProfessional認定最終課題（ケーススタディ）
+## GoogleProfessional認定ケーススタディー
+### GoogleDataAnalyticsProfessional認定最終課題
 <a href="https://docs.google.com/presentation/d/1yJ9RSdGBTQlT9GvQKLMHq5cAHBwVKtG39ImytjGriBU/edit#slide=id.p" target="_blank">分析結果報告スライド</a>  
 
 <a href="https://www.kaggle.com/code/yuukiiwakura/casestudy" target="_blank">Kaggle分析ノートブック</a>  
