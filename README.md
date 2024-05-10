@@ -110,6 +110,18 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
   
 <a href="https://pixabay.com/ja/videos" target="_blank">データの出典元②</a>  
 
+### YOLOv8を用いた物体検出  
+* この分析はxmlファイルで提供されたannotation情報をyoloモデルに入力できる形式に変更することを目的に行いました。
+* ファイルの形式を変更してyolov8モデルに入力することができました。
+* 精度はあまりよくなく、mAP=0.49という結果でした。
+* mAPが学習の途中から上昇しなくなったので過学習を起こしている可能性があると考察しました。
+* 過学習を起こさないためのモデルの詳細な設定などはまだ習得できていないのでこれから勉強していきたいです。
+
+<a href="https://www.kaggle.com/code/yuukiiwakura/objectdetection-using-yolov8" target="_blank">Kaggle分析ノートブック</a>  
+
+<a href="https://www.kaggle.com/datasets/anamibnjafar0/flamevision" target="_blank">データの出典元</a> 
+
+
 
 
 ## 非構造化データの分析(自然言語処理)
