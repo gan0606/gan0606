@@ -121,6 +121,16 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 
 <a href="https://www.kaggle.com/datasets/anamibnjafar0/flamevision" target="_blank">データの出典元</a> 
 
+### その他の物体検出の分析
+* annotation情報をCOCO形式からyolo形式に変更してYOLOv8で学習させる課題  
+<a href="https://github.com/gan0606/shellfish_v2" target="_blank">リポジトリ</a>
+
+<a href="https://public.roboflow.com/object-detection/shellfish-openimages" target="_blank">データの出典元</a>  
+  
+* annotation情報をcsv形式からyolo形式に変更してYOLOv8で学習させる課題  
+<a href="https://github.com/gan0606/car" target="_blank">リポジトリ</a>  
+  
+<a href="https://www.kaggle.com/datasets/sshikamaru/car-object-detection" target="_blank">データの出典元</a>  
 
 
 
