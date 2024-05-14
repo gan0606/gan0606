@@ -139,7 +139,7 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 ### Transformersを用いたテキスト分類
 BERTをPeftでファインチューニングを行い、自然言語分類モデルを構築しました。モデルはF1スコア0.91を達成し、再現率と適合率のバランスが良い結果となりました。  
   
-<a href="https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification/edit" target="_blank">Kaggle分析ノートブック</a>  
+<a href="https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification" target="_blank">Kaggle分析ノートブック</a>  
 
 <a href="https://www.kaggle.com/datasets/eswarchandt/amazon-music-reviews" target="_blank">データの出典元</a>  
 
