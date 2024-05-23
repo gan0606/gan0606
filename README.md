@@ -68,45 +68,40 @@ RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しま
 ## 非構造化データの分析(画像分類)
 ### 深層学習を用いた画像分類
 PyTorchを使用してオリジナルの畳み込みニューラルネットワークを構築し、画像分類を行いました。モデルの精度は77.5%で、結果をStreamlitで可視化しました。  
-  
-<a href="https://portfoliodogscats-hbvehhzihycnxdplnrxzu4.streamlit.app/" target="_blank">オリジナルニューラルネットワークによる猫と犬の画像分類</a>  
-  
-<a href="https://www.kaggle.com/code/yuukiiwakura/2-class-classification-using-pytorch-original-cnn" target="_blank">Kaggle分析ノートブック</a>  
-  
-<a href="https://www.kaggle.com/competitions/dog-vs-cat-classification" target="_blank">データの出典元</a> 
+[オリジナルニューラルネットワークによる猫と犬の画像分類](https://portfoliodogscats-hbvehhzihycnxdplnrxzu4.streamlit.app/)  
 
+[Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/2-class-classification-using-pytorch-original-cnn)  
 
+[データの出典元](https://www.kaggle.com/competitions/dog-vs-cat-classification)  
   
 ### 転移学習を用いた画像分類
 PyTorchのDenseNetを用いた転移学習による画像分類を行い、精度は89.8%でした。結果はStreamlitで可視化しました。  
-  
-<a href="https://flowerclassification-mudkpi47dcealenst7iynq.streamlit.app/" target="_blank">転移学習による花の画像の分類</a>  
-  
-<a href="https://www.kaggle.com/code/yuukiiwakura/5-class-classification-using-pytorch-densenet" target="_blank">Kaggle分析ノートブック</a>  
-  
-<a href="https://www.kaggle.com/datasets/alxmamaev/flowers-recognition" target="_blank">データの出典元</a> 
+[転移学習による花の画像の分類](https://flowerclassification-mudkpi47dcealenst7iynq.streamlit.app/)  
 
+[Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/5-class-classification-using-pytorch-densenet)  
 
+[データの出典元](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)  
+  
 ## 非構造化データの分析(物体検出)
 ### ヘルメット着用促進システム
 ・YOLOv8を用いて画像と映像から物体検出を行うアプリを開発しました。  
 ・検出対象は3つで、2つの検出でmAP=約0.9という高い精度を実現しました。  
 ・結果をStreamlitでアプリ化し、ブラウザ上で簡単に操作できます。  
-  
-<a href="https://helmetv2-jipzd9znb5yip8xmza8wfu.streamlit.app/" target="_blank">ヘルメット着用促進システム</a>  
+
+[ヘルメット着用促進システム](https://helmetv2-jipzd9znb5yip8xmza8wfu.streamlit.app/)  
   
 下記のリンクから動画検出も含めたアプリにアクセスできますが、環境によっては動画が再生されない可能性があります。  
 因みに、windowsのブラウザでは動画を再生できませんでした。一方で、iphone環境では動画を再生することができました。  
-アプリで動画を確認できない方は分析結果報告スライドのfig06を確認ください。  
-  
-<a href="https://helmetv2-kppnytbjth5qe8udrcjohh.streamlit.app/" target="_blank">ヘルメット着用促進システム(映像検出結果付)</a>  
-  
-<a href="https://docs.google.com/presentation/d/1tLZ4_f5EMZsqNUVD2tdCjxSMs35r3YLRnNA95BSTrb0/edit#slide=id.p" target="_blank">分析結果報告スライド</a>  
-  
-<a href="https://public.roboflow.com/object-detection/hard-hat-workers" target="_blank">データの出典元①</a>  
-  
-<a href="https://pixabay.com/ja/videos" target="_blank">データの出典元②</a>  
+アプリで動画を確認できない方は分析結果報告スライドのfig07を確認ください。  
 
+[ヘルメット着用促進システム(映像検出結果付)](https://helmetv2-kppnytbjth5qe8udrcjohh.streamlit.app/)  
+
+[分析結果報告スライド](https://docs.google.com/presentation/d/1tLZ4_f5EMZsqNUVD2tdCjxSMs35r3YLRnNA95BSTrb0/edit#slide=id.p)  
+
+[データの出典元①](https://public.roboflow.com/object-detection/hard-hat-workers)  
+
+[データの出典元②](https://pixabay.com/ja/videos)  
+  
 ### XML形式からYOLOv8形式への変換アルゴリズムの習得  
 * この分析はxmlファイルで提供されたannotation情報をyoloモデルに入力できる形式に変更することを目的に行いました。
 * ファイルの形式を変更してyolov8モデルに入力することができました。
@@ -147,8 +142,6 @@ LangChainとstreamlitを用いて、ChatBot形式のAI心理カウンセラー�
 
 ## GoogleProfessional認定ケーススタディー
 ### GoogleDataAnalyticsProfessional認定最終課題
-<a href="https://docs.google.com/document/d/1f9gvTLxaE-thYEcp_CO4qRtfXe92Nmqp9FTI65uaFss/edit?usp=sharing" target="_blank">シナリオ</a>  
-
 <a href="https://docs.google.com/presentation/d/1yJ9RSdGBTQlT9GvQKLMHq5cAHBwVKtG39ImytjGriBU/edit#slide=id.p" target="_blank">分析結果報告スライド</a>  
 
 <a href="https://www.kaggle.com/code/yuukiiwakura/casestudy" target="_blank">Kaggle分析ノートブック</a>  
