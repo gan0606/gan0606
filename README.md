@@ -6,7 +6,7 @@
 * Python  
 データ分析、機械学習、深層学習、ファイルやフォルダの操作、簡単なアプリ開発  
 【使用経験のあるフレームワークやライブラリ】  
-os, glob, shutil, re, pandas, numpy, scipy, matplotlib, seaborn, plotly, scikit-learn, Pytorch, Prophet, YOLOv8, OpenCV, Transformers, Streamlit, Shap, LangChain  
+os, glob, shutil, re, Pandas, Numpy, scipy, matplotlib, seaborn, plotly, scikit-learn, LightGBM, Catboost, Pytorch, Prophet, YOLOv8, OpenCV, Transformers, Peft, Streamlit, SHAP, LangChain  
 * SQL  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
 BigqueryからSQLを用いてデータの抽出し、GoogleColab上でPythonを用いて分析した経験有  
@@ -95,7 +95,7 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 [ヘルメット着用促進システム](https://helmetv2-jipzd9znb5yip8xmza8wfu.streamlit.app/)  
   
 下記のリンクから動画検出も含めたアプリにアクセスできますが、環境によっては動画が再生されない可能性があります。  
-因みに、windowsのブラウザでは動画を再生できませんでした。一方で、iphone環境では動画を再生することができました。  
+因みに、Windowsのブラウザでは動画を再生できませんでした。一方で、iphone環境では動画を再生することができました。  
 アプリで動画を確認できない方は分析結果報告スライドのfig07を確認ください。  
   
 [ヘルメット着用促進システム(映像検出結果付)](https://helmetv2-kppnytbjth5qe8udrcjohh.streamlit.app/)  
@@ -107,7 +107,7 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 [データの出典元②](https://pixabay.com/ja/videos)  
   
 ### XML形式からYOLOv8形式への変換アルゴリズムの習得  
-* この分析はxmlファイルで提供されたannotation情報をyoloモデルに入力できる形式に変更することを目的に行いました。  
+* この分析はxmlファイルで提供されたannotation情報をYOLOモデルに入力できる形式に変更することを目的に行いました。  
 * ファイルの形式を変更してyolov8モデルに入力してモデルを学習させることができました。  
 * 精度はあまりよくなく、mAP=0.49という結果でした。  
 * mAPが学習の途中から上昇しなくなったので過学習を起こしている可能性があると考察しました。  
@@ -140,7 +140,7 @@ BERTをPeftでファインチューニングを行い、自然言語分類モデ
 [データの出典元](https://www.kaggle.com/datasets/eswarchandt/amazon-music-reviews)  
   
 ### LangChainを用いたAI心理カウンセラーの開発
-LangChainとstreamlitを用いて、ChatBot形式のAI心理カウンセラーを開発ました。  
+LangChainとStreamlitを用いて、ChatBot形式のAI心理カウンセラーを開発ました。  
   
 [AI心理カウンセラー](https://langchainaicounselor-mfxzfyjblqvj2xpd5cpzzu.streamlit.app/)
 
