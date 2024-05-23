@@ -6,7 +6,7 @@
 * Python  
 データ分析、機械学習、深層学習、ファイルやフォルダの操作、簡単なアプリ開発  
 【使用経験のあるフレームワークやライブラリ】  
-os, glob, shutil, re, pandas, numpy, scipy, matplotlib, seaborn, plotly,  scikit-learn, Pytorch, prophet, YOLOv8, OpenCV, Transformers, Streamlit, shap, langchain  
+os, glob, shutil, re, pandas, numpy, scipy, matplotlib, seaborn, plotly, scikit-learn, Pytorch, Prophet, YOLOv8, OpenCV, Transformers, Streamlit, Shap, LangChain  
 * SQL  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
 BigqueryからSQLを用いてデータの抽出し、GoogleColab上でPythonを用いて分析した経験有  
@@ -49,6 +49,7 @@ tidyverse, gglot2
 ## 構造化データの分析
 ### 機械学習を用いた分類
 ROC AUCスコアが0.81で、再現率と適合率が比較的高いCatboostモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。 そして、分析結果をStreamlitを用いてアプリ化しました。  
+  
 [機械学習を用いたタイタニック号乗客の生存確率分析](https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/)  
 
 [Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost)  
@@ -57,6 +58,7 @@ ROC AUCスコアが0.81で、再現率と適合率が比較的高いCatboostモ�
 
 ### 機械学習を用いた回帰
 RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。そして、分析結果をStreamlitを用いてアプリ化しました。  
+  
 [機械学習による米国住宅価格の予測](https://portfoliohouseprice-fo9ulyssetjkjiappnpywxw.streamlit.app/)  
   
 [Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/regressoin-by-lightgbm)  
@@ -68,6 +70,7 @@ RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しま
 ## 非構造化データの分析(画像分類)
 ### 深層学習を用いた画像分類
 PyTorchを使用してオリジナルの畳み込みニューラルネットワークを構築し、画像分類を行いました。モデルの精度は77.5%で、結果をStreamlitで可視化しました。  
+  
 [オリジナルニューラルネットワークによる猫と犬の画像分類](https://portfoliodogscats-hbvehhzihycnxdplnrxzu4.streamlit.app/)  
 
 [Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/2-class-classification-using-pytorch-original-cnn)  
@@ -76,6 +79,7 @@ PyTorchを使用してオリジナルの畳み込みニューラルネットワ�
   
 ### 転移学習を用いた画像分類
 PyTorchのDenseNetを用いた転移学習による画像分類を行い、精度は89.8%でした。結果はStreamlitで可視化しました。  
+  
 [転移学習による花の画像の分類](https://flowerclassification-mudkpi47dcealenst7iynq.streamlit.app/)  
 
 [Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/5-class-classification-using-pytorch-densenet)  
@@ -87,13 +91,13 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 ・YOLOv8を用いて画像と映像から物体検出を行うアプリを開発しました。  
 ・検出対象は3つで、2つの検出でmAP=約0.9という高い精度を実現しました。  
 ・結果をStreamlitでアプリ化し、ブラウザ上で簡単に操作できます。  
-
+  
 [ヘルメット着用促進システム](https://helmetv2-jipzd9znb5yip8xmza8wfu.streamlit.app/)  
   
 下記のリンクから動画検出も含めたアプリにアクセスできますが、環境によっては動画が再生されない可能性があります。  
 因みに、windowsのブラウザでは動画を再生できませんでした。一方で、iphone環境では動画を再生することができました。  
 アプリで動画を確認できない方は分析結果報告スライドのfig07を確認ください。  
-
+  
 [ヘルメット着用促進システム(映像検出結果付)](https://helmetv2-kppnytbjth5qe8udrcjohh.streamlit.app/)  
 
 [分析結果報告スライド](https://docs.google.com/presentation/d/1tLZ4_f5EMZsqNUVD2tdCjxSMs35r3YLRnNA95BSTrb0/edit#slide=id.p)  
@@ -103,47 +107,48 @@ PyTorchのDenseNetを用いた転移学習による画像分類を行い、精�
 [データの出典元②](https://pixabay.com/ja/videos)  
   
 ### XML形式からYOLOv8形式への変換アルゴリズムの習得  
-* この分析はxmlファイルで提供されたannotation情報をyoloモデルに入力できる形式に変更することを目的に行いました。
-* ファイルの形式を変更してyolov8モデルに入力することができました。
-* 精度はあまりよくなく、mAP=0.49という結果でした。
-* mAPが学習の途中から上昇しなくなったので過学習を起こしている可能性があると考察しました。
-* 過学習を起こさないためのモデルの詳細な設定などはまだ習得できていないのでこれから勉強していきたいです。
+* この分析はxmlファイルで提供されたannotation情報をyoloモデルに入力できる形式に変更することを目的に行いました。  
+* ファイルの形式を変更してyolov8モデルに入力してモデルを学習させることができました。  
+* 精度はあまりよくなく、mAP=0.49という結果でした。  
+* mAPが学習の途中から上昇しなくなったので過学習を起こしている可能性があると考察しました。  
+* 過学習を起こさないためのモデルの詳細な設定などはまだ習得できていないのでこれから勉強していきたいです。  
 
-<a href="https://www.kaggle.com/code/yuukiiwakura/objectdetection-using-yolov8" target="_blank">Kaggle分析ノートブック</a>  
+[Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/objectdetection-using-yolov8)  
 
-<a href="https://www.kaggle.com/datasets/anamibnjafar0/flamevision" target="_blank">データの出典元</a> 
-
-### COCO形式からYOLOv8形式への変換アルゴリズムの習得  
-* annotation情報をCOCO形式からyolo形式に変更してYOLOv8で学習させる課題  
-<a href="https://github.com/gan0606/shellfish_v2" target="_blank">リポジトリ</a>
-
-<a href="https://public.roboflow.com/object-detection/shellfish-openimages" target="_blank">データの出典元</a>  
-
-### CSV形式からYOLOv8形式への変換アルゴリズムの習得
-* annotation情報をcsv形式からyolo形式に変更してYOLOv8で学習させる課題  
-<a href="https://github.com/gan0606/car" target="_blank">リポジトリ</a>  
+[データの出典元](https://www.kaggle.com/datasets/anamibnjafar0/flamevision)  
   
-<a href="https://www.kaggle.com/datasets/sshikamaru/car-object-detection" target="_blank">データの出典元</a>  
+### COCO形式からYOLOv8形式への変換アルゴリズムの習得  
+* annotation情報をCOCO形式からyolo形式に変更してYOLOv8に学習させる課題
 
+[GitHubリポジトリ](https://github.com/gan0606/shellfish_v2)  
 
+[データの出典元](https://public.roboflow.com/object-detection/shellfish-openimages)  
+  
+### CSV形式からYOLOv8形式への変換アルゴリズムの習得
+* annotation情報をcsv形式からyolo形式に変更してYOLOv8で学習させる課題
 
+[GitHubリポジトリ](https://github.com/gan0606/car)  
+
+[データの出典元](https://www.kaggle.com/datasets/sshikamaru/car-object-detection)  
+  
 ## 非構造化データの分析(自然言語処理)
 ### Transformersを用いたテキスト分類
 BERTをPeftでファインチューニングを行い、自然言語分類モデルを構築しました。モデルはF1スコア0.91を達成し、再現率と適合率のバランスが良い結果となりました。  
+
+[Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification)  
+
+[データの出典元](https://www.kaggle.com/datasets/eswarchandt/amazon-music-reviews)  
   
-<a href="https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification" target="_blank">Kaggle分析ノートブック</a>  
-
-<a href="https://www.kaggle.com/datasets/eswarchandt/amazon-music-reviews" target="_blank">データの出典元</a>  
-
 ### LangChainを用いたAI心理カウンセラーの開発
 LangChainとstreamlitを用いて、ChatBot形式のAI心理カウンセラーを開発ました。  
+  
 [AI心理カウンセラー](https://langchainaicounselor-mfxzfyjblqvj2xpd5cpzzu.streamlit.app/)
 
 
 ## GoogleProfessional認定ケーススタディー
 ### GoogleDataAnalyticsProfessional認定最終課題
-<a href="https://docs.google.com/presentation/d/1yJ9RSdGBTQlT9GvQKLMHq5cAHBwVKtG39ImytjGriBU/edit#slide=id.p" target="_blank">分析結果報告スライド</a>  
+[分析結果報告スライド](https://docs.google.com/presentation/d/1yJ9RSdGBTQlT9GvQKLMHq5cAHBwVKtG39ImytjGriBU/edit#slide=id.p)  
 
-<a href="https://www.kaggle.com/code/yuukiiwakura/casestudy" target="_blank">Kaggle分析ノートブック</a>  
+[分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/casestudy)  
 
-<a href="https://www.kaggle.com/datasets/arashnic/fitbit" target="_blank">データの出典元</a>  
+[データの出典元](https://www.kaggle.com/datasets/arashnic/fitbit)  
