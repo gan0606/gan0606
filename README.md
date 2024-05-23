@@ -1,13 +1,12 @@
 # Portfolio
-最終更新日: 2024/5/17  
+最終更新日: 2024/5/23 
 
 # スキル
 ①言語  
 * Python  
 データ分析、機械学習、深層学習、ファイルやフォルダの操作、簡単なアプリ開発  
 【使用経験のあるフレームワークやライブラリ】  
-os, glob, shutil, re, pandas, numpy, matplotlib, seaborn, plotly, scipy, scikit-learn, Pytorch, prophet, YOLOv8, OpenCV, Transformers, Streamlit, shap
-
+os, glob, shutil, re, pandas, numpy, scipy, matplotlib, seaborn, plotly,  scikit-learn, Pytorch, prophet, YOLOv8, OpenCV, Transformers, Streamlit, shap, langchain  
 * SQL  
 Googleデータアナリティクスプロフェッショナル認定で基礎を学習  
 BigqueryからSQLを用いてデータの抽出し、GoogleColab上でPythonを用いて分析した経験有  
@@ -50,25 +49,22 @@ tidyverse, gglot2
 ## 構造化データの分析
 ### 機械学習を用いた分類
 ROC AUCスコアが0.81で、再現率と適合率が比較的高いCatboostモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。 そして、分析結果をStreamlitを用いてアプリ化しました。  
-  
-<a href="https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/" target="_blank">機械学習を用いたタイタニック号乗客の生存確率分析</a>  
-  
-<a href="https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost" target="_blank">Kaggle分析ノートブック</a>  
-  
-<a href="https://www.kaggle.com/competitions/titanic" target="_blank">データの出典元</a> 
+[機械学習を用いたタイタニック号乗客の生存確率分析](https://portfoliotitanic-gj5ulajyurszafogejxgzl.streamlit.app/)  
 
+[Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/classifier-by-catboost)  
 
+[データの出典元](https://www.kaggle.com/competitions/titanic)  
 
 ### 機械学習を用いた回帰
 RSMEスコアが0.055で比較的精度が高いLightgbmモデルを構築しました。また、特徴量の重要度をSHAP分析を用いて可視化しました。そして、分析結果をStreamlitを用いてアプリ化しました。  
+[機械学習による米国住宅価格の予測](https://portfoliohouseprice-fo9ulyssetjkjiappnpywxw.streamlit.app/)  
   
-<a href="https://portfoliohouseprice-fo9ulyssetjkjiappnpywxw.streamlit.app/" target="_blank">機械学習による米国住宅価格の予測</a>  
+[Kaggle分析ノートブック](https://www.kaggle.com/code/yuukiiwakura/regressoin-by-lightgbm)  
   
-<a href="https://www.kaggle.com/code/yuukiiwakura/regressoin-by-lightgbm" target="_blank">Kaggle分析ノートブック</a>  
-  
-<a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques" target="_blank">データの出典元</a> 
+[データの出典元](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)  
 
 
+  
 ## 非構造化データの分析(画像分類)
 ### 深層学習を用いた画像分類
 PyTorchを使用してオリジナルの畳み込みニューラルネットワークを構築し、画像分類を行いました。モデルの精度は77.5%で、結果をStreamlitで可視化しました。  
