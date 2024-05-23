@@ -45,7 +45,7 @@ tidyverse, gglot2
 
 
 
-# 取り組んだ分析課題
+# 取り組んだ課題
 
 ## 構造化データの分析
 ### 機械学習を用いた分類
@@ -143,6 +143,10 @@ BERTをPeftでファインチューニングを行い、自然言語分類モデ
 <a href="https://www.kaggle.com/code/yuukiiwakura/fine-tuning-bert-with-peft-for-text-classification" target="_blank">Kaggle分析ノートブック</a>  
 
 <a href="https://www.kaggle.com/datasets/eswarchandt/amazon-music-reviews" target="_blank">データの出典元</a>  
+
+### LangChainを用いたAI心理カウンセラーの開発
+LangChainとstreamlitを用いて、ChatBot形式のAI心理カウンセラーを開発ました。  
+[AI心理カウンセラー](https://langchainaicounselor-mfxzfyjblqvj2xpd5cpzzu.streamlit.app/)
 
 
 ## GoogleProfessional認定ケーススタディー
